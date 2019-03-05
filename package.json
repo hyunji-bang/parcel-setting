@@ -1,11 +1,21 @@
 {
-  "name": "1.3.2",
+  "name": "parcel-setting",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "git@github.com:hyunji-bang/parcel-setting.git",
   "author": "방현지 <stella@rsquare.co.kr>",
   "license": "MIT",
+  "private": false,
   "dependencies": {
-    "latest-version": "^4.0.0"
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html"
   }
 }
