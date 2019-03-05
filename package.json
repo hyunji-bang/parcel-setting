@@ -1,0 +1,11 @@
+{
+  "name": "1.3.2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:hyunji-bang/parcel-setting.git",
+  "author": "방현지 <stella@rsquare.co.kr>",
+  "license": "MIT",
+  "dependencies": {
+    "latest-version": "^4.0.0"
+  }
+}
